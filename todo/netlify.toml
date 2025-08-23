@@ -1,7 +1,7 @@
 [build]
   base = "todo"
-  command = "npm run build"
-  publish = "todo/build"
+  command = "npm install && npm run build"
+  publish = "build"
 
 [build.environment]
   NODE_VERSION = "18"
